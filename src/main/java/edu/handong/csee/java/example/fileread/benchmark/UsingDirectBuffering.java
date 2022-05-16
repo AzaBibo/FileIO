@@ -66,4 +66,9 @@ public class UsingDirectBuffering {
         inputStream4.close();
         */
     }
+    String name; 
+    public String getName(String args) {
+		name= args;
+		return name;
+	}
 }
